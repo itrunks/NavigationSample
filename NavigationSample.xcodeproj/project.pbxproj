@@ -21,6 +21,8 @@
 		C7A2FC6218A212CC005F7A00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A2FC4418A212CC005F7A00 /* UIKit.framework */; };
 		C7A2FC6A18A212CC005F7A00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7A2FC6818A212CC005F7A00 /* InfoPlist.strings */; };
 		C7A2FC6C18A212CC005F7A00 /* NavigationSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2FC6B18A212CC005F7A00 /* NavigationSampleTests.m */; };
+		C7A2FC7718A2133F005F7A00 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2FC7618A2133F005F7A00 /* SecondViewController.m */; };
+		C7A2FC7A18A2134C005F7A00 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2FC7918A2134C005F7A00 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		C7A2FC6718A212CC005F7A00 /* NavigationSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationSampleTests-Info.plist"; sourceTree = "<group>"; };
 		C7A2FC6918A212CC005F7A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7A2FC6B18A212CC005F7A00 /* NavigationSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationSampleTests.m; sourceTree = "<group>"; };
+		C7A2FC7518A2133F005F7A00 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C7A2FC7618A2133F005F7A00 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C7A2FC7818A2134C005F7A00 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C7A2FC7918A2134C005F7A00 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				C7A2FC5218A212CC005F7A00 /* Main.storyboard */,
 				C7A2FC5518A212CC005F7A00 /* ViewController.h */,
 				C7A2FC5618A212CC005F7A00 /* ViewController.m */,
+				C7A2FC7518A2133F005F7A00 /* SecondViewController.h */,
+				C7A2FC7618A2133F005F7A00 /* SecondViewController.m */,
+				C7A2FC7818A2134C005F7A00 /* ThirdViewController.h */,
+				C7A2FC7918A2134C005F7A00 /* ThirdViewController.m */,
 				C7A2FC5818A212CC005F7A00 /* Images.xcassets */,
 				C7A2FC4718A212CC005F7A00 /* Supporting Files */,
 			);
@@ -249,6 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A2FC7718A2133F005F7A00 /* SecondViewController.m in Sources */,
+				C7A2FC7A18A2134C005F7A00 /* ThirdViewController.m in Sources */,
 				C7A2FC5718A212CC005F7A00 /* ViewController.m in Sources */,
 				C7A2FC5118A212CC005F7A00 /* AppDelegate.m in Sources */,
 				C7A2FC4D18A212CC005F7A00 /* main.m in Sources */,
