@@ -92,7 +92,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="2eD-fJ-2ME"/>
                     <connections>
-                        <segue destination="mUa-1G-HXL" kind="push" identifier="goTo" id="qsE-6y-eSU"/>
+                        <segue destination="mUa-1G-HXL" kind="modal" identifier="goTo" id="qsE-6y-eSU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3L8-7f-Bzq" userLabel="First Responder" sceneMemberID="firstResponder"/>
